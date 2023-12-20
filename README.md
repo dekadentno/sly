@@ -1,5 +1,33 @@
 # sly
-Curation of educational scripts and files showcasing various vulnerabilities and attack vectors, designed strictly for research and ethical learning
+Curation of educational scripts and files showcasing various vulnerabilities and attack vectors, designed strictly for research and ethical learning.
 
-# Disclamer 
+## Tools
+- Mimikatz
+- Unix-privesc-check
+- Seatbelt
+- Procmon
+- Netcat
+- Ncat
+- LinPEAS
+- WinPEAS
+- PrintSpoofer64
+- GodPotato
+- PowerShell Empire
+- BloodHound
+- PowerSploit
+- Nessus
+- Enum4linux
+- WPScan
+- PEASS-ng
+- Rubeus
+- Veil
+- PsTools
+- Kerbrute
+- nc64.exe (Netcat for 64-bit Windows)
+- PowerView
+- SharpHound
+- Spray-Passwords.ps1
+- Runas
+
+## Disclamer 
 The tools and materials provided herein are intended for educational and informational purposes only. The author does not endorse, encourage, or support the use of these tools for illegal or malicious activities. Users are solely responsible for their actions and are advised to act within the boundaries of applicable laws and ethical guidelines. The author shall not be held liable for any misuse or consequences resulting from the use of the content provided.

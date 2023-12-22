@@ -1,5 +1,5 @@
 # sly
-Curation of educational scripts and files showcasing various vulnerabilities and attack vectors, designed strictly for research and ethical learning.
+Curation of educational scripts and files for exploiting various vulnerabilities and attack vectors, designed strictly for research and ethical learning.
 
 ## Tools
 - Mimikatz

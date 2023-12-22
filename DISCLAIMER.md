@@ -1,6 +1,6 @@
 Disclaimer for Sly
 
-The tools and materials provided in Sly are gathered from various sources and are not the original work of the repository's maintainer(s). The repository is intended to serve as a collection of resources for informational and educational purposes only.
+The tools and materials provided in Sly are gathered from various sources and are not the original work of the repository's maintainer(s). The repository is intended to serve as a collection of resources for informational and educational purposes only. Users are solely responsible for their actions and are advised to act within the boundaries of applicable laws and ethical guidelines. The author shall not be held liable for any misuse or consequences resulting from the use of the content provided.
 
 No Warranty: The repository and all contents therein are provided "as is" without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the maintainer(s) be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the tools and materials or the use or other dealings in the tools and materials.
 

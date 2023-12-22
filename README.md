@@ -23,7 +23,7 @@ Curation of educational scripts and files for exploiting various vulnerabilities
 - Veil
 - PsTools
 - Kerbrute
-- nc64.exe (Netcat for 64-bit Windows)
+- nc64.exe
 - PowerView
 - SharpHound
 - Spray-Passwords.ps1

@@ -5,7 +5,6 @@ Curation of educational scripts and files for exploiting various vulnerabilities
 - Mimikatz
 - Unix-privesc-check
 - Seatbelt
-- Procmon
 - Netcat
 - Ncat
 - LinPEAS
@@ -29,3 +28,14 @@ Curation of educational scripts and files for exploiting various vulnerabilities
 - Spray-Passwords.ps1
 - Runas
 - PsExec
+- Process Explorer
+- Process Monitor (Procmon)
+- PsLoggedOn
+- vshadow
+- powercat.ps1
+- bypass.ps1
+- powerup.ps1
+- nttokenfunctions.ps1
+- enumeration.ps1
+- powerview.ps1
+- spray-passwords.ps1

@@ -39,3 +39,4 @@ Curation of educational scripts and files for exploiting various vulnerabilities
 - enumeration.ps1
 - powerview.ps1
 - spray-passwords.ps1
+- DomainPasswordSpray.ps1

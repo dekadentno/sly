@@ -1,7 +1,5 @@
 # sly
-Curation of open-source tools and scripts, now streamlined through Sly, a script tailored for red-teaming activities and OSCP preparation.
-
-Sly, your lazy-but-smart script, automatically collects red-teaming and OSCP tools, saving you the tedious chore of hunting down each script every single time.
+Sly, your lazy-but-smart script, automatically collects red-teaming and OSCP tools, saving you the tedious chore of hunting down each script every single time. Tailored for red-teaming activities and OSCP preparation.
 
 Use these tools strictly for research and ethical learning.
 

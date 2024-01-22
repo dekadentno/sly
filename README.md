@@ -80,7 +80,5 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | spray-passwords.ps1 | Windows | Password spraying tool | false |
 | DomainPasswordSpray.ps1 | Windows | Domain-wide password spraying tool | false |
 
-## Todo
-
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

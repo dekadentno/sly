@@ -13,6 +13,7 @@ Sly is your lazy-but-smart hub for red-teaming and OSCP tools, saving you from t
 | Ncat | Cross-platform | Enhanced version of Netcat | false |
 | LinPEAS | Linux | Privilege escalation checks | false |
 | WinPEAS | Windows | Windows privilege escalation checks | false |
+| ADpeas | Windows | Active Directory enumeration | false |
 | PrintSpoofer64 | Windows | Abusing print spooler services | false |
 | GodPotato | Windows | Exploiting Windows BITS service | false |
 | PowerShell Empire | Windows | Post-exploitation framework | false |

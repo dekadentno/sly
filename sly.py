@@ -2,38 +2,11 @@ import os
 import urllib.request
 import zipfile
 import argparse
+import json
 
 failed_downloads = []
 tools_without_urls = []
-tools = [
-    {'name': 'Mimikatz', 'paths': ['/usr/share/windows-resources/mimikatz/x64/mimikatz.exe', '/usr/share/windows-resources/mimikatz/Win32/mimikatz.exe']},
-    {'name': 'Unix-privesc-check', 'paths': ['/usr/share/unix-privesc-check/unix-privesc-check']},
-    {'name': 'Seatbelt', 'paths': ['/usr/share/powershell-empire/empire/server/modules/powershell/situational_awareness/host/seatbelt.py']},
-    {'name': 'Ncat', 'paths': ['/usr/bin/ncat']},
-    {'name': 'LinPEAS', 'paths': ['/usr/share/peass/linpeas/linpeas_linux_386', '/usr/share/peass/linpeas/linpeas_linux_amd64', '/usr/share/peass/linpeas/linpeas_linux_arm', '/usr/share/peass/linpeas/linpeas_linux_arm64']},
-    {'name': 'WinPEAS', 'paths': ['/usr/share/peass/winpeas/winPEASany.exe', '/usr/share/peass/winpeas/winPEASx64.exe']},
-    {'name': 'ADpeas', 'paths': ['https://raw.githubusercontent.com/61106960/adPEAS/main/adPEAS.ps1']},
-    {'name': 'PrintSpoofer64', 'paths': ['https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe', 'https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe']},
-    {'name': 'GodPotato', 'paths': ['https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe', 'https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET35.exe', 'https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe']},
-    {'name': 'BloodHound', 'paths': []},
-    {'name': 'PowerSploit', 'paths': ['https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1']},
-    {'name': 'WPScan', 'paths': ['/usr/bin/wpscan']},
-    {'name': 'linpeas', 'paths': ['/usr/share/peass/linpeas/linpeas_linux_amd64']},
-    {'name': 'winpeas', 'paths': ['/usr/share/peass/winpeas/winPEASx64.exe']},
-    {'name': 'Rubeus', 'paths': ['https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Rubeus.exe']},
-    {'name': 'PsTools', 'paths': ['https://download.sysinternals.com/files/PSTools.zip']},
-    {'name': 'Kerbrute', 'paths': ['https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe', 'https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_386.exe']},
-    {'name': 'nc64.exe', 'paths': ['https://github.com/int0x33/nc.exe/raw/master/nc64.exe']},
-    {'name': 'PowerView', 'paths': ['https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1']},
-    {'name': 'SharpHound', 'paths': []},
-    {'name': 'Sysinternals Suite', 'paths': ['https://download.sysinternals.com/files/SysinternalsSuite.zip']},
-    {'name': 'powercat.ps1', 'paths': ['/usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1']},
-    {'name': 'powerup.ps1', 'paths': ['https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1']},
-    {'name': 'spray-passwords.ps1', 'paths': ['https://github.com/dekadentno/sly/blob/main/other/Spray-Passwords.ps1']},
-    {'name': 'DomainPasswordSpray.ps1', 'paths': ['https://raw.githubusercontent.com/dafthack/DomainPasswordSpray/master/DomainPasswordSpray.ps1']},
-    {'name': 'ligolo-ng_proxy_linux_arm64', 'paths': ['https://github.com/nicocha30/ligolo-ng/releases/download/v0.5.1/ligolo-ng_proxy_0.5.1_linux_arm64.tar.gz']},
-    {'name': 'ligolo-ng_agent_windows_amd64', 'paths': ['https://github.com/nicocha30/ligolo-ng/releases/download/v0.5.1/ligolo-ng_agent_0.5.1_windows_amd64.zip']}
-]
+tools = []
 
 def download_and_extract_zip(url, destination):
     try:
@@ -148,6 +121,9 @@ def main(destination):
             print(f"- {tool}")
 
 if __name__ == "__main__":
+    with open('tools.json', 'r') as file:
+        tools = json.load(file)
+
     parser = argparse.ArgumentParser(description='This script downloads and/or copies a predefined list of tools to a specified directory. It handles both direct file copying and downloading from URLs, including handling zip files.')
 
     parser.add_argument('-d', '--destination', help='The full path to the destination directory where tools will be downloaded/copied. If not specified, it defaults to a subdirectory in the current working directory.')

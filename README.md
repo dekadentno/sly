@@ -78,7 +78,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | spray-passwords.ps1 | 🪟 | Password spraying tool |
 | DomainPasswordSpray.ps1 | 🪟 | Domain-wide password spraying tool |
 | Ligolo-ng agent | 🪟 | Establish tunnels from a reverse TCP/TLS connection (agent) |
-| Ligolo-ng proxy | 🪟 | Establish tunnels from a reverse TCP/TLS connection (proxy) |
+| Ligolo-ng proxy | 🐧 | Establish tunnels from a reverse TCP/TLS connection (proxy) |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

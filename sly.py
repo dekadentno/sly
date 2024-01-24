@@ -129,9 +129,17 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='This script downloads and/or copies a predefined list of tools to a specified directory. It handles both direct file copying and downloading from URLs, including handling zip files.')
 
-    parser.add_argument('-d', '--destination', help='The full path to the destination directory where tools will be downloaded/copied. If not specified, it defaults to a subdirectory in the current working directory.')
-    parser.add_argument('-f', '--folder', default="sly", help='Name of the subdirectory in the current working directory to use as the default destination. Defaults to "sly".')
+    parser.add_argument('-d', '--destination', help='The full path to the destination directory where tools will be downloaded/copied. If not specified, tools will be downloaded/copied to the current working directory.')
+    parser.add_argument('-f', '--folder', help='Name of the subdirectory in the current working directory to use as the destination. This is ignored if --destination is specified.')
 
     args = parser.parse_args()
-    destination = args.destination if args.destination else os.path.join(os.getcwd(), args.folder)
+
+    # Determine the destination directory
+    if args.destination:
+        destination = args.destination
+    elif args.folder:
+        destination = os.path.join(os.getcwd(), args.folder)
+    else:
+        destination = os.getcwd()
+
     main(destination)

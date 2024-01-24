@@ -124,7 +124,7 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     tools_json_path = os.path.join(script_dir, 'tools.json')
     
-    with open('tools.json', 'r') as file:
+    with open(tools_json_path, 'r') as file:
         tools = json.load(file)
 
     parser = argparse.ArgumentParser(description='This script downloads and/or copies a predefined list of tools to a specified directory. It handles both direct file copying and downloading from URLs, including handling zip files.')

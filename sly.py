@@ -121,6 +121,9 @@ def main(destination):
             print(f"- {tool}")
 
 if __name__ == "__main__":
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    tools_json_path = os.path.join(script_dir, 'tools.json')
+    
     with open('tools.json', 'r') as file:
         tools = json.load(file)
 

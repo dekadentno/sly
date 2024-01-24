@@ -16,14 +16,21 @@ python3 sly.py
 chmod +x sly.py
 ./sly.py
 
-# With default settings sly will put everything into the default "sly" directory
-python3 sly.py 
+# With default settings, sly will put everything into the current working directory
+python3 sly.py
 
 # To specify a different destination directory
 python3 sly.py -d /path/to/destination
 
-# Or just run it with this neat one liner
+# To specify a subdirectory within the current working directory
+python3 sly.py -f subdirectory_name
+
+# Combining both destination and subdirectory arguments (Note: subdirectory argument will be ignored in this case)
+python3 sly.py -d /path/to/destination -f subdirectory_name
+
+# Or just run it with this neat one-liner
 curl -sSL https://raw.githubusercontent.com/dekadentno/sly/main/sly.py | python3 -
+
 ```
 
 This script was designed and tested for Kali Linux and may not work on other systems because it uses paths specific to Kali.

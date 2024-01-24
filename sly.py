@@ -29,7 +29,7 @@ tools = [
     {'name': 'Sysinternals Suite', 'paths': ['https://download.sysinternals.com/files/SysinternalsSuite.zip']},
     {'name': 'powercat.ps1', 'paths': ['/usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1']},
     {'name': 'powerup.ps1', 'paths': ['https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1']},
-    {'name': 'spray-passwords.ps1', 'paths': ['./other/Spray-Passwords.ps1']},
+    {'name': 'spray-passwords.ps1', 'paths': ['https://github.com/dekadentno/sly/blob/main/other/Spray-Passwords.ps1']},
     {'name': 'DomainPasswordSpray.ps1', 'paths': ['https://raw.githubusercontent.com/dafthack/DomainPasswordSpray/master/DomainPasswordSpray.ps1']},
     {'name': 'ligolo-ng_proxy_linux_arm64', 'paths': ['https://github.com/nicocha30/ligolo-ng/releases/download/v0.5.1/ligolo-ng_proxy_0.5.1_linux_arm64.tar.gz']},
     {'name': 'ligolo-ng_agent_windows_amd64', 'paths': ['https://github.com/nicocha30/ligolo-ng/releases/download/v0.5.1/ligolo-ng_agent_0.5.1_windows_amd64.zip']}

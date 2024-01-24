@@ -49,34 +49,36 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 ```
 
 ## Tools
-| Tool Name | Platform | Purpose | Has multiple Architectures |
-| --- | --- | --- | --- |
-| Mimikatz | Windows | Credential dumping and manipulation | false |
-| Unix-privesc-check | Linux | Checks for privilege escalation vectors | false |
-| Seatbelt | Windows | Security checks and system enumeration | false |
-| Ncat | Cross-platform | Enhanced version of Netcat | false |
-| LinPEAS | Linux | Privilege escalation checks | false |
-| WinPEAS | Windows | Windows privilege escalation checks | false |
-| ADpeas | Windows | Active Directory enumeration | false |
-| PrintSpoofer64 | Windows | Abusing print spooler services | false |
-| GodPotato | Windows | Exploiting Windows BITS service | false |
-| BloodHound | Windows | AD Trust analysis | false |
-| PowerSploit | Windows | PowerShell-based exploitation | false |
-| WPScan | Cross-platform | WordPress vulnerability scanner | false |
-| linpeas | Cross-platform | Privilege escalation tools | true |
-| winpeas | Cross-platform | Privilege escalation tools | true |
-| Rubeus | Windows | Kerberos attack framework | false |
-| PsTools | Windows | Suite of command-line Windows utilities | false |
-| Kerbrute | Cross-platform | Brute-forcing Kerberos pre-auth | false |
-| nc64.exe | Windows | 64-bit Netcat for Windows | false |
-| PowerView | Windows | AD enumeration | false |
-| SharpHound | Windows | Collecting AD data | false |
-| Spray-Passwords.ps1 | Windows | Password spraying script | false |
-| Sysinternals Suite | Windows | Volume Shadow Copy management | true |
-| powercat.ps1 | Windows | PowerShell-based Netcat alternative | false |
-| powerup.ps1 | Windows | PowerShell script for privilege escalation | false |
-| spray-passwords.ps1 | Windows | Password spraying tool | false |
-| DomainPasswordSpray.ps1 | Windows | Domain-wide password spraying tool | false |
+| Tool Name | Platform | Purpose | 
+| --- | --- | --- |
+| Mimikatz | 🪟 | Credential dumping and manipulation |
+| Unix-privesc-check | 🐧 | Checks for privilege escalation vectors |
+| Seatbelt | 🪟 | Security checks and system enumeration |
+| Ncat | 🪟 🐧 | Enhanced version of Netcat |
+| LinPEAS | 🐧 | Privilege escalation checks |
+| WinPEAS | 🪟 | 🪟 privilege escalation checks |
+| ADpeas | 🪟 | Active Directory enumeration |
+| PrintSpoofer64 | 🪟 | Abusing print spooler services |
+| GodPotato | 🪟 | Exploiting windows BITS service |
+| BloodHound | 🪟 | AD Trust analysis |
+| PowerSploit | 🪟 | PowerShell-based exploitation |
+| WPScan | 🪟 🐧 | WordPress vulnerability scanner |
+| linpeas | 🪟 🐧 | Privilege escalation tools |
+| winpeas | 🪟 🐧 | Privilege escalation tools |
+| Rubeus | 🪟 | Kerberos attack framework |
+| PsTools | 🪟 | Suite of command-line windows utilities |
+| Kerbrute | 🪟 🐧 | Brute-forcing Kerberos pre-auth |
+| nc64.exe | 🪟 | 64-bit Netcat for windows |
+| PowerView | 🪟 | AD enumeration |
+| SharpHound | 🪟 | Collecting AD data |
+| Spray-Passwords.ps1 | 🪟 | Password spraying script |
+| Sysinternals Suite | 🪟 | Volume Shadow Copy management |
+| powercat.ps1 | 🪟 | PowerShell-based Netcat alternative |
+| powerup.ps1 | 🪟 | PowerShell script for privilege escalation |
+| spray-passwords.ps1 | 🪟 | Password spraying tool |
+| DomainPasswordSpray.ps1 | 🪟 | Domain-wide password spraying tool |
+| Ligolo-ng agent | 🪟 | Establish tunnels from a reverse TCP/TLS connection (agent) |
+| Ligolo-ng proxy | 🪟 | Establish tunnels from a reverse TCP/TLS connection (proxy) |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

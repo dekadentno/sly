@@ -30,7 +30,6 @@ python3 sly.py -d /path/to/destination -f subdirectory_name
 
 # Or just run it with this neat one-liner
 curl -sSL https://raw.githubusercontent.com/dekadentno/sly/main/sly.py | python3 -
-
 ```
 
 This script was designed and tested for Kali Linux and may not work on other systems because it uses paths specific to Kali.
@@ -86,6 +85,10 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | DomainPasswordSpray.ps1 | 🪟 | Domain-wide password spraying tool |
 | Ligolo-ng agent | 🪟 | Establish tunnels from a reverse TCP/TLS connection (agent) |
 | Ligolo-ng proxy | 🐧 | Establish tunnels from a reverse TCP/TLS connection (proxy) |
+| webshell.pHp |  | Simple PHP webshell |
+| KeePass | 🪟 | Portable version of a popular password manager |
+| pspy32 | 🐧 | Unprivileged Linux process snooping (32 bit) |
+| pspy64 | 🐧 | Unprivileged Linux process snooping (64 bit) |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

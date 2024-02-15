@@ -89,6 +89,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | KeePass | 🪟 | Portable version of a popular password manager |
 | pspy32 | 🐧 | Unprivileged Linux process snooping (32 bit) |
 | pspy64 | 🐧 | Unprivileged Linux process snooping (64 bit) |
+| suid3num.py | 🐧 | SUID bins enumeration, separate default bins from custom bins, cross-match those with bins in GTFO Bin's |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

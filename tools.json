@@ -195,5 +195,11 @@
         "paths": [
             "https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py"
         ]
+    },
+    {
+        "name": "suid3num.py",
+        "paths": [
+            "https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py"
+        ]
     }
 ]

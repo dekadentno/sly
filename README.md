@@ -62,7 +62,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | Seatbelt | 🪟 | Security checks and system enumeration |
 | Ncat | 🪟 🐧 | Enhanced version of Netcat |
 | LinPEAS | 🐧 | Privilege escalation checks |
-| WinPEAS | 🪟 | 🪟 privilege escalation checks |
+| WinPEAS | 🪟 | Windows privilege escalation checks |
 | ADpeas | 🪟 | Active Directory enumeration |
 | PrintSpoofer64 | 🪟 | Abusing print spooler services |
 | GodPotato | 🪟 | Exploiting windows BITS service |
@@ -90,6 +90,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | pspy32 | 🐧 | Unprivileged Linux process snooping (32 bit) |
 | pspy64 | 🐧 | Unprivileged Linux process snooping (64 bit) |
 | suid3num.py | 🐧 | SUID bins enumeration, separate default bins from custom bins, cross-match those with bins in GTFO Bin's |
+| OpenSSHesame.ps1 | 🪟 | Creates an SSH key pair and set up SSH access on Windows |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

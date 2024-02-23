@@ -201,5 +201,17 @@
         "paths": [
             "https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py"
         ]
+    },
+    {
+        "name": "automap.sh",
+        "paths": [
+            "https://raw.githubusercontent.com/dekadentno/automap/main/automap.sh"
+        ]
+    },
+    {
+        "name": "OpenSSHesame.ps1",
+        "paths": [
+            "https://raw.githubusercontent.com/dekadentno/sly/main/other/OpenSSHesame.ps1"
+        ]
     }
 ]

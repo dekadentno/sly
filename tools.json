@@ -213,5 +213,11 @@
         "paths": [
             "https://raw.githubusercontent.com/dekadentno/sly/main/other/OpenSSHesame.ps1"
         ]
+    },
+    {
+        "name": "ssh_backdoor.sh",
+        "paths": [
+            "https://raw.githubusercontent.com/dekadentno/sly/main/other/ssh_backdoor.sh"
+        ]
     }
 ]

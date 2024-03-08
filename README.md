@@ -91,6 +91,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | pspy64 | 🐧 | Unprivileged Linux process snooping (64 bit) |
 | suid3num.py | 🐧 | SUID bins enumeration, separate default bins from custom bins, cross-match those with bins in GTFO Bin's |
 | OpenSSHesame.ps1 | 🪟 | Creates an SSH key pair and set up SSH access on Windows |
+| ssh_backdoor.sh | 🐧 | Creates an SSH key pair and set up SSH access on Linux |
 | automap.sh | 🐧 | Automate some Nmap scans. |
 
 ## Disclaimer

@@ -93,6 +93,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | OpenSSHesame.ps1 | 🪟 | Creates an SSH key pair and set up SSH access on Windows |
 | ssh_backdoor.sh | 🐧 | Creates an SSH key pair and set up SSH access on Linux |
 | automap.sh | 🐧 | Automate some Nmap scans. |
+| SharpUp.exe | 🪟 | Part of GhostPack suite, C# port of PowerUp. |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).

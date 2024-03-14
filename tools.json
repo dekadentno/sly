@@ -219,5 +219,11 @@
         "paths": [
             "https://raw.githubusercontent.com/dekadentno/sly/main/other/ssh_backdoor.sh"
         ]
+    },
+    {
+        "name": "SharpUp.exe",
+        "paths": [
+            "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/SharpUp.exe"
+        ]
     }
 ]

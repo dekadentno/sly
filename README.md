@@ -94,6 +94,7 @@ Linux kali 6.3.0-kali1-arm64 #1 SMP Debian 6.3.7-1kali1 (2023-06-29) aarch64 GNU
 | ssh_backdoor.sh | 🐧 | Creates an SSH key pair and set up SSH access on Linux |
 | automap.sh | 🐧 | Automate some Nmap scans. |
 | SharpUp.exe | 🪟 | Part of GhostPack suite, C# port of PowerUp. |
+| colorful_server.py | 🐧🪟 | Simple python server that handles GET and POST; displays data with colored output. |
 
 ## Disclaimer
 See [Disclaimer](./DISCLAIMER.md).
